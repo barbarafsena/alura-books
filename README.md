@@ -4,9 +4,9 @@
 <h1>Resumo do Projeto</h1>
 <p> Tela inicial do site da AluraBook desenvolvido durante o curso "HTML e CSS: Responsividade com mobile-first" da plataforma Alura. </p>
 
-<img src="gif-alura-books-mobile.gif">
+<img src="gif-alura-books-mobile.gif"><img src="gif-alura-books-desktop.gif" width=700>
 
-<img src="gif-alura-books-mobile.gif">
+
 
 ## ✔️ Tecnologias utilizadas
 
