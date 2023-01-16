@@ -19,7 +19,7 @@
 - ``JavaScript``
 
 ## 📁 Acesso ao projeto
-📁 Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/barbarafsena/alura-books.git) <br>
+📁 Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/barbarafsena/alura-books.git) <br><br>
 💻 📱 Você pode acessar o site clicando [aqui](https://barbarafsena.github.io/alura-books/)
 
 # Autora
