@@ -1,0 +1,166 @@
+.carrossel__titulo {
+    color: var(--laranja);
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1.3em 0 0.5em 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+}
+
+.card {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.card__descricao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.descricao__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+.descricao__titulo-livro {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+    line-height: 1.3em;
+
+}
+
+.descricao__texto {
+    font-size: 14px;
+    line-height: 1.3em;
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+}
+
+.botoes__item {
+    margin: 0 0.5em;
+}
+
+.botao__ancora {
+    background-color: var(--laranja);
+    color: var(--branco);
+    text-decoration: none;
+    padding: 1em 2.2em;
+    text-align: center;
+    font-weight: 700;
+}
+
+.descricao__estrelas {
+    margin-bottom: 0.5em;
+}
+
+.botao__fav--preenchido {
+    display: none;
+}
+
+.botao__fav img {
+   width: 38px;
+   height: 38px;
+}
+
+/* Estilo para tablet */
+@media screen and (min-width: 1024px) {
+
+    .carrossel__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        display: block;
+        top: 60%;
+    }
+
+    .card {
+        width: 40%;
+        margin: 2em auto;
+    }
+
+    .descricao__imagem:hover {
+        opacity: 0.5;
+    }
+
+    .botao__fav--preenchido img {
+        width: 38px;
+        height: 38px;
+     }
+
+    .botao__fav:hover {
+        display: none;
+    }
+
+    .botao__fav:hover ~ .botao__fav--preenchido {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    
+    .carrossel__container {
+        display: flex;
+        margin: 3em 20vw 3em 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin: auto 0 1em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__texto {
+        font-size: 16pix;
+    }
+
+    .card {
+        width: 60%;
+        margin-left: 3em;
+    }
+
+}
